@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.coffe-image img {
+    
+    height: 694px;
+    width: 677px;
+}
+
+body {
+    background: linear-gradient(61deg, #32160F 0%, #512C25 50.43%, #000 98.79%);
+    background-color: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: #FFF;
+
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    color: #FFF;
+    
+}
+
+button {
+    border: none;
+font-family: "Poppins";
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 150px;
+    border-bottom: 1px solid  #8C6553;;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap:30px;
+    height: 30px;
+}
+
+header ul li {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #8c6553;
+}
+
+
+.coffe-img {
+    gap: 20px;
+    display:flex;
+}
+main {
+    display: flex;
+    align-items: center;
+}
+
+main h4 {
+    color: #D8A661;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+main h1 {
+    color: #FFF;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+h1 span {
+    display: block; /* Faz com que cada parte fique em uma linha separada */
+}
+
+main p {
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+max-width: 380px;
+}
+
+main div button {
+    border-radius: 31.014px;
+background: #D8A661;
+box-shadow: 0px 2.48115px 2.48115px 0px rgba(0, 0, 0, 0.25);
+color: #000;
+font-family: Poppins;
+font-size: 11.165px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 30px;
+width: 150px;
+height: 40px;
+flex-shrink: 0;
+
+}
+main div button:hover{
+
+    color: #000;
+    background-color: #FFF;
+}
+
+
+main div button a {
+    border-radius: 31.014px;
+background: #D8A661;
+box-shadow: 0px 2.48115px 2.48115px 0px rgba(0, 0, 0, 0.25);
+color: black;
+padding: 8px 20px;
+
+
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    border-radius: 50px 50px 0px 0px;
+background: #4E2A23;
+box-shadow: 0px -8px 25px 0px rgba(0, 0, 0, 0.30);
+height: 200px;
+align-items: center;
+position: relative;
+}
+
+footer p {
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 317px;
+margin-left: 94px;
+}
+
+footer  button {
+    border-radius: 50px;
+    background-color: #2C120D;
+    width: 300px;
+height: 49px;
+flex-shrink: 0;
+position: absolute;
+top: -25px;
+left: 100px;
+
+
+}
+
+footer button a {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 10px;
+}
+
+footer button a span {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -100px;
+    right: 450px;
+}
